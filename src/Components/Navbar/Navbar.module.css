@@ -1,0 +1,29 @@
+.container {
+  height: 50px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.name {
+  color: #0f889d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.name img{
+    width: 2.5rem;
+}
+.logout {
+  background: #0f889d;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logout:hover {
+  background: #074a71;
+}
